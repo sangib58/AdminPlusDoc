@@ -1,0 +1,339 @@
+<!doctype html>
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<title>AdminPLUS - .NET Core 3.1 Starter Admin Template</title>
+
+	<meta name="description" content="">
+	<meta name="author" content="Sangib Kumar Saha">
+	<meta name="copyright" content="Sangib Kumar Saha">
+	<meta name="generator" content="Documenter v2.0 https://evp.to/documenter">
+	<meta name="date" content="2020-11-21T00:00:00+01:00">
+
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+
+</head>
+<body class="documenter-project-adminplus">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#project_description" title="Project description">Project description</a></li>
+			<li><a href="#project_requirement" title="Project Requirement">Project Requirement</a></li>
+			<li><a href="#credentials" title="Credentials">Credentials</a></li>
+			<li><a href="#set_up_adminapi_project" title="Set up AdminApi Project">Set up AdminApi Project</a></li>
+			<li><a href="#set_up_adminclient_project" title="Set up AdminClient Project">Set up AdminClient Project</a></li>
+			<li><a href="#conclusion" title="Conclusion">Conclusion</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Sangib Kumar Saha 2020<br>
+		made with the <a href="https://evp.to/documenter">Documenter v2.0</a>
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>AdminPLUS</h1>
+	<h2>.NET Core 3.1 Starter Admin Template</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 10/28/2020</li>
+	<li>latest update: 11/21/2020</li>
+	<li>by: Sangib Kumar Saha</li>
+	
+	<li>email: <a href="mailto:&#115;&#97;&#110;&#103;&#105;&#98;&#114;&#117;&#115;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#115;&#97;&#110;&#103;&#105;&#98;&#114;&#117;&#115;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>Thank you for purchasing my script. If you have any questions that are beyond the scope of this help file, feel free to email me.</p>
+	</section>
+
+	<section id="project_description">
+	<div class="page-header"><h3>Project description</h3><hr class="notop"></div>
+<div>
+	If you are looking for a template for your upcoming web based .NET core project then probably you come to the right place.</div>
+<div>
+	&nbsp;</div>
+<div>
+	AdminPLUS is a web based light Admin template, developed based on Microsoft&rsquo;s latest .NET core 3.1, Entity Framework core 3.1.6, Jquery, Javascript and Bootstrap 4. The most amazing part of this template is, you have five popular Relational database connectivity options here.You have flexibility to choose Sql server, Mysql, Sqlite, PostgreSql and Oracle 12c+.</div>
+<div>
+	&nbsp;</div>
+<div>
+	AdminPLUS starter template consists of two separate project, <strong>one is AdminAPi project for API </strong>or you may call it service and <strong>the other is AdminClient project for UI </strong>or you may call it client for your API. So here AdminApi is an independent project and you can definitely use this as a service for your any other client project.</div>
+</section>
+<section id="project_requirement">
+	<div class="page-header"><h3>Project Requirement</h3><hr class="notop"></div>
+<ul>
+	<li>
+		<span style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium;">VS Code or Visual Studio 2019.</span></li>
+	<li>
+		<font color="#000000" face="Times New Roman" size="3">Database provider software (SQL Server/MySql/Sqlite/PostgreSql/Oracle).</font></li>
+</ul>
+</section>
+<section id="credentials">
+	<div class="page-header"><h3>Credentials</h3><hr class="notop"></div>
+<p style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium;">
+	For Admin access, Username:admin@2020 Password:admin@2020</p>
+<p style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium;">
+	For User access, Username:user@2020 Password:user@2020</p>
+</section>
+<section id="set_up_adminapi_project">
+	<div class="page-header"><h3>Set up AdminApi Project</h3><hr class="notop"></div>
+<ul>
+	<li>
+		<div>
+			<span style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium;">Open AdminApi project on Visual studio code or Visual Studio 2019.On appsettings.json file you will find five connection strings for five different database connectivity. Replace the connection string by your one.</span></div>
+	</li>
+</ul>
+<div>
+	<pre class="prettyprint lang-js linenums">
+&quot;ConnectionStrings&quot;: {
+
+    &quot;ApiConnStringMssql&quot;: &quot;data source=Sangib-PC;initial catalog=AdminDB;
+     persist security info=True;Integrated Security=SSPI;&quot;,
+
+    &quot;ApiConnStringMysql&quot;: &quot;server=localhost;port=3306;database=AdminDB;user=root;&quot;,
+
+    &quot;ApiConnStringOracle&quot;: &quot;Data Source=(DESCRIPTION=(ADDRESS_LIST=
+    (ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521)))  
+    (CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orclpdb)));User Id=root;Password=root;&quot;,
+
+    &quot;ApiConnStringSqlite&quot;: &quot;Data Source=AdminDB.db;&quot;,
+
+    &quot;ApiConnStringPostgreSql&quot;: &quot;Server=127.0.0.1;Port=5432;Database=AdminDB;
+    User Id=postgres;Password=postgres;&quot;
+
+  }</pre>
+</div>
+<p>
+	&nbsp;</p>
+<ul>
+	<li>
+		<p>
+			Then open Startup.cs file, On ConfigureServices method you will see five AppDbContextPool for five Connection Strings that already have on appsettings.json file. Un-Comment your required one and keep other four as commented.Have a look to the below code.I only un-comment the Mysql portion because i used Mysql DB here.</p>
+	</li>
+</ul>
+<div>
+	<pre class="prettyprint lang-js linenums">
+public void ConfigureServices(IServiceCollection services)
+
+        {
+            //Sql Server Connection String
+            /* services.AddDbContextPool&lt;AppDbContext&gt;(opt =&gt; opt.UseSqlServer
+            (Configuration.GetConnectionString(&quot;ApiConnStringMssql&quot;))); */
+
+
+            //Mysql Connection String
+            services.AddDbContextPool&lt;AppDbContext&gt;(opt=&gt;opt.UseMySql
+            (Configuration.GetConnectionString(&quot;ApiConnStringMysql&quot;)));
+
+            //Sqlite Connection String
+            /* services.AddDbContextPool&lt;AppDbContext&gt;(opt=&gt;opt.UseSqlite
+            (Configuration.GetConnectionString(&quot;ApiConnStringSqlite&quot;))); */
+
+
+            //PostgreSql Connection String
+            /* services.AddDbContextPool&lt;AppDbContext&gt;(opt=&gt;opt.UseNpgsql
+            (Configuration.GetConnectionString(&quot;ApiConnStringPostgreSql&quot;))); */
+
+
+            //Oracle Connection String
+            /* services.AddDbContextPool&lt;AppDbContext&gt;(opt=&gt;opt.UseOracle
+            (Configuration.GetConnectionString(&quot;ApiConnStringOracle&quot;))); */ </pre>
+</div>
+<p>
+	&nbsp;</p>
+<ul>
+	<li>
+		Now Open terminal on VS Code(for Visual Studio 2019 Tools -&gt; Command Line -&gt; Developer Command Prompt and switch to your project directory) and write below commands&nbsp; &nbsp; &nbsp;</li>
+</ul>
+<p>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-&gt;dotnet ef migrations add &lt;MigrationName&gt;</p>
+<p>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-&gt;dotnet ef database update</p>
+<p>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-&gt;dotnet run</p>
+<ul>
+	<li>
+		After successful build a folder named Migrations should create to user project structure and a database named&nbsp; &nbsp;AdminDB &nbsp;should create with seed data to your MySQL server (if you use MSSQL then you should check to Sql Server and so on for other databases). After executing &quot;dotnet run&quot; command you should see that your API listening at&nbsp;http://localhost:5001/.Navigate to the link to see the swagger Api documentation UI.</li>
+</ul>
+<ul>
+	<li>
+		You can check Api by Swagger UI by navigating&nbsp;http://localhost:5001/.First go to the method&nbsp;<strong>/api/Users/GetLoginInfo/{username}/{password}&nbsp;</strong>then enter username and password as i mentioned eairlier, a token will be generated here. Use this token to authorize the api by clicking the Authorize button at the top right and header value format example: <strong>&quot;Bearer TokenText&quot;.&nbsp;</strong>Then you will able to check all the methods as expected.</li>
+</ul>
+<ul>
+	<li>
+		You can change token expire time from UsersController GenerateJwtToken method.Currently it is set to 180 minutes.</li>
+</ul>
+<div>
+	<pre class="prettyprint lang-js linenums">
+        string GenerateJwtToken(UserInfo userInfo)
+        {
+            var securityKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes
+                           (_config[&quot;Jwt:SecretKey&quot;]));
+            var credentials = new SigningCredentials(securityKey, 
+                              SecurityAlgorithms.HmacSha256);
+            var claims = new[]
+            {
+                new Claim(JwtRegisteredClaimNames.Sub, userInfo.UserId.ToString()),
+                new Claim(&quot;fullName&quot;, userInfo.FullName.ToString()),
+                new Claim(&quot;role&quot;,userInfo.RoleName),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+            };
+            var token = new JwtSecurityToken(
+                issuer: _config[&quot;Jwt:Issuer&quot;],
+                audience: _config[&quot;Jwt:Audience&quot;],
+                claims: claims,
+                expires: DateTime.Now.AddMinutes(180),
+                signingCredentials: credentials
+            );
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }     <span style="font-family: Arial, Verdana, sans-serif;">                                                               </span></pre>
+</div>
+<p>
+	&nbsp;</p>
+<ul>
+	<li>
+		<span style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium;">After first migration all the project specific data will insert to your underlying database through your Models-&gt;AppDBContext.cs class OnModelCreating Seed (for Oracle use SeedOracle()) method.</span></li>
+</ul>
+<pre class="prettyprint lang-js linenums">
+        protected override void OnModelCreating(ModelBuilder modelBuilder)   
+        {   
+            modelBuilder.Seed();//use this for Sql server,Mysql,Sqlite and PostgreSql
+           //modelBuilder.SeedOracle();//use this only for Oracle
+        }</pre>
+<p>
+	&nbsp;</p>
+<ul>
+	<li>
+		<span style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium;">This project used database driven role based authorization. Through migration data you will get two roles, named Admin and User. You can add more role from Role List menu after running the Client project. These role names are used in Authorize attribute on Api project as role name to authorize that particular method.&nbsp;</span></li>
+</ul>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="set_up_adminclient_project">
+	<div class="page-header"><h3>Set up AdminClient Project</h3><hr class="notop"></div>
+<ul>
+	<li>
+		<span style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium;">Open AdminClient on Visual Studio 2019 or Visual Studio Code. Run the project either command line or debugging mode (pressing F5 or Ctrl+F5). In command line mood the Client project will run at http://localhost:5000 and in debugging mood it will run at http://localhost:53580.</span></li>
+</ul>
+<p>
+	&nbsp;</p>
+<ul>
+	<li>
+		<span style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium;">Now open appsettings.json file, you should see a string named WebAPIBaseUrl here which is set to http://localhost:5001. Actually our AdminApi project is running here.&nbsp;</span></li>
+</ul>
+<pre class="prettyprint lang-js linenums">
+{
+  &quot;Logging&quot;: {
+    &quot;Debug&quot;: {
+      &quot;LogLevel&quot;: {
+        &quot;Default&quot;: &quot;Warning&quot;,
+        &quot;AdminClient.Controllers.ErrorController&quot;: &quot;Warning&quot;,
+        &quot;AdminClient.Controllers.HomeController&quot;: &quot;Warning&quot;,
+        &quot;Microsoft&quot;: &quot;Warning&quot;
+      }
+    },
+    &quot;LogLevel&quot;: {
+      &quot;Default&quot;: &quot;Trace&quot;,
+      &quot;AdminClient.Controllers.ErrorController&quot;: &quot;Trace&quot;,
+      &quot;AdminClient.Controllers.HomeController&quot;: &quot;Trace&quot;,
+      &quot;Microsoft&quot;: &quot;Warning&quot;
+    }
+  },
+  &quot;AllowedHosts&quot;: &quot;*&quot;,
+  &quot;WebAPIBaseUrl&quot;: &quot;http://localhost:5001&quot;
+}</pre>
+<p>
+	&nbsp;</p>
+<ul>
+	<li>
+		Currently the session time is set to 60 minute. You may change it from Startup.cs class.&nbsp;</li>
+</ul>
+<pre class="prettyprint lang-js linenums">
+public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddSession(options =&gt;
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(60);
+            });
+            services.AddControllersWithViews();          
+        }</pre>
+<p>
+	&nbsp;</p>
+<ul>
+	<li>
+		<span style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium;">The Client project uses NLog (a 3rd party loggger service) to generate a log text file every day for errors and exceptions that occurs when using. You will find those file on your Windows OS C Drive and the file location is&nbsp;</span><b style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium;">C:\DemoLogs</b><span style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium;">. This location can be change from nLog.config file.</span></li>
+</ul>
+<p>
+	&nbsp;</p>
+</section>
+<section id="conclusion">
+	<div class="page-header"><h3>Conclusion</h3><hr class="notop"></div>
+<p>
+	Once again, thank you so much for purchasing this script. As I said at the beginning, I&#39;d be glad to help you if you have any questions relating to this script. I&#39;ll do my best to assist. If you have a more general question relating to the scripts on Codecanyon, you might consider visiting the forums and asking your question in the &quot;Item Discussion&quot; section.</p>
+<p>
+	<b>Sangib Kumar Saha</b></p>
+</section>
+
+	</div>
+</body>
+</html>
